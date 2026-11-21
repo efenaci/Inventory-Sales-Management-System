@@ -1,4 +1,4 @@
-# 📦 Inventory & Sales Tracking System
+# 📦 Inventory & Sales Management System
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
@@ -11,14 +11,14 @@ A **C# Windows Forms** desktop application that enables users to register produc
 ## 🖥️ Application Screenshots
 
 ### 1. Products Tab (Product Entry & Analytics)
-Users input the product name, stock quantity, and unit price to add items to the system[cite: 3]. The information panel on the right dynamically calculates and displays the total product count, average price, cheapest/most expensive items, and products with the lowest/highest stock levels[cite: 3].
+Users add new items to the system by entering the product name, stock quantity, and unit price. The summary panel on the right dynamically calculates and displays the total product count, average product price, cheapest/most expensive items, and lowest/highest stock items.
 
 <p align="center">
   <img src="urunler.png" alt="Products and Analytics Screen" width="700">
 </p>
 
 ### 2. Transactions Tab (Sales & Live Stock Tracking)
-Users select a registered product from the dropdown list, specify the sales quantity, and click **Sell** (`Sat`)[cite: 2]. The sold quantity is deducted from the inventory, and the updated stock list on the right refreshes instantaneously[cite: 2].
+Users select an existing product from the dropdown menu, specify the sales quantity, and click the **Sell (Sat)** button. The sold quantity is immediately deducted from inventory, and the updated stock list is refreshed in real time on the right panel.
 
 <p align="center">
   <img src="islemler.png" alt="Sales Transactions and Live Stock Screen" width="700">
@@ -28,13 +28,13 @@ Users select a registered product from the dropdown list, specify the sales quan
 
 ## ✨ Features
 
-* **Product & Inventory Management:** Dynamic record creation via product name, stock quantity, and unit price inputs[cite: 3].
-* **Real-Time Inventory Analytics:** Automated calculations across all registered items for:
-  * Total number of product varieties[cite: 3],
-  * Average product price[cite: 3],
-  * Cheapest and most expensive products[cite: 3],
-  * Products with the lowest and highest stock counts[cite: 3].
-* **Dynamic Sales & Stock Deduction:** Automated stock reduction based on selected product and quantity, synchronized with the live stock list[cite: 2].
+* **Product & Inventory Management:** Dynamic record creation with product name, initial stock quantity, and unit pricing.
+* **Real-Time Inventory Analytics:** Automated calculation across registered items for:
+  * Total number of distinct products,
+  * Average unit price,
+  * Lowest and highest priced products,
+  * Minimum and maximum stock levels.
+* **Dynamic Sales & Stock Deduction:** Instant inventory adjustment upon sale execution with synchronized stock list updates.
 
 ---
 
